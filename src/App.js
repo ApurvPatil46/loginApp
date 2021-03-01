@@ -80,6 +80,7 @@ const App = () => {
 
     return(
             <div className = "App">
+            <h1> Heading Tag Added</h1>
                 {user ?(<Hero handleLogout = {handleLogout}/>):
                 (
                     <Login 
